@@ -12,7 +12,7 @@
         {
             if ($i % 2){
             echo "<div>";
-            echo "hello"
+            echo "hello";
             echo "</div>";
             }
         }
