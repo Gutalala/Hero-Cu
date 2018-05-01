@@ -7,8 +7,12 @@
     </head>
     <body>
         <h1>This is a PHP page</h1>
-        <?php
-        echo "I love you."
+    <?php
+        for ($i = 0; $i < 10; $i++)
+        {
+            echo "<div id="$i">";
+            echo "</div>"
+        }
     ?>
     </body>
 </html> 
