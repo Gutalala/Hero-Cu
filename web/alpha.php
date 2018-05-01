@@ -11,11 +11,13 @@
         for ($i = 0; $i < 10; $i++)
         {
             if ($i % 2){
-            echo "<div id="$i" style="background-color:red">";
+            echo "<div style="background-color:red">";
+            echo "hello"
             echo "</div>";
             }
             else {
-            echo "<div id="$i">";
+            echo "<div>";
+            echo "hello"
             echo "</div>";
             }
         }
