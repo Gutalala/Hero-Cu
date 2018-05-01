@@ -15,11 +15,6 @@
             echo "hello"
             echo "</div>";
             }
-            else {
-            echo "<div>";
-            echo "hello"
-            echo "</div>";
-            }
         }
     ?>
     </body>
