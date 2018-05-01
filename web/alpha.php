@@ -11,12 +11,12 @@
         for ($i = 0; $i < 10; $i++)
         {
             if ($i % 2){
-            echo "<div>";
+            echo "<div id='div$i'>";
             echo "no";
             echo "</div>";
             }
             else {
-            echo "<div>";
+            echo "<div id='div$i'>";
             echo "hello";
             echo "</div>";
             }
