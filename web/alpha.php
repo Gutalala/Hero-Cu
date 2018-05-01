@@ -10,8 +10,14 @@
     <?php
         for ($i = 0; $i < 10; $i++)
         {
-            echo "<div>";
+            if ($1 % 2){
+            echo "<div id="$i" style="background-color:red">";
             echo "</div>";
+            }
+            else {
+            echo "<div id="$i">";
+            echo "</div>";
+            }
         }
     ?>
     </body>
