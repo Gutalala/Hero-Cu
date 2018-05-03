@@ -12,12 +12,12 @@
         {
             if ($i % 2){
             echo "<div id='div$i' style='background-color:red'>";
-            echo "no";
+            echo "ALPHA";
             echo "</div>";
             }
             else {
             echo "<div id='div$i'>";
-            echo "hello";
+            echo "ALPHA";
             echo "</div>";
             }
         }
