@@ -23,10 +23,11 @@
   ul.top-links li a:hover {
     background-color: #111111;
 }
-        </style>
-
+    </style>
+       
         <ul class="top-links">
-  <li><a href="home.php">HOME</a></li>
-  <li><a href="login.php">LOGIN</a></li>
-  <li><a href="aboutpage.php">ABOUT US</a></li>
+  <li><a class="home" href="home.php">HOME</a></li>
+  <li><a class="login" href="login.php">LOGIN</a></li>
+  <li><a class="aboutpage" href="aboutpage.php">ABOUT US</a></li>
         </ul>
+        

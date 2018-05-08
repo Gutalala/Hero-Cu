@@ -8,6 +8,7 @@
     <body>
     <?php
         include 'header.php';
+        $activeHome = True;
     ?>
     </body>
 </html>

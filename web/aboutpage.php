@@ -1,6 +1,7 @@
 
 <?php
 include 'header.php';
+$activeAbout = True;
 ?>
 
 <div>
