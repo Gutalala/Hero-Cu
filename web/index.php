@@ -42,7 +42,7 @@
     </div>
 
   <div id="newproduct" class="headline productpanel">
-      <h1><a href="assigments.php">ASSIGNMENTS</a></h1>
+      <h1><a href="assignments.php">ASSIGNMENTS</a></h1>
   </div>
     
      <p class="footer"> Copyright &#xa9 2025 CU Inc. All Rights Reserved</p>
