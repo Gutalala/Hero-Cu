@@ -1,16 +1,14 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
     <link href="style.css" type="text/css" rel="stylesheet">
        <title>ANEA Official Website</title>
-       <meta charset="utf-8">
-
-<?php
-       include 'top-header.php';
-?>
-       
+       <meta charset="utf-8">       
    </head>
    <body>
+   <?php
+       include 'top-header.php';
+       ?>
 <ul class="top-links">
   <li><a href="shop.html">CATALOG</a></li>
   <li><a href="#register">REGISTER</a></li>
@@ -41,8 +39,7 @@
 </ul> 
 
   <div id="newproduct" class="headline productpanel">
-      <h1><a href="assigments">ASSIGNMENTS</a></h1>
-    <img src="nanosuit1.jpg" alt="nano1">
+      <h1><a href="assigments.php">ASSIGNMENTS</a></h1>
   </div>
      <p class="footer"> Copyright &#xa9 2025 CU Inc. All Rights Reserved</p>
    </body>
