@@ -4,117 +4,25 @@
     <link href="style.css" type="text/css" rel="stylesheet">
        <title>ANEA Official Website</title>
        <meta charset="utf-8">
-<style type ="text/css" >
-   .footer{ 
-       position: static;     
-       padding-left: 25px;
-       left: 0px;    
-       bottom: 0px; 
-       width: 100%;
-       border-top: 1px solid black;
-       font-family: Courier;
-       font-size: normal;
-    }
 
-   body{
-    background-color: white;
-   }  
-    #Welcome{
-      text-align: center;
-      font-family: Helvetica Neue;
-      font-weight: bolder;
-      color: Black;
-      margin-bottom: -30px;
-    }
-    #mission{
-      margin-left: 625px;
-      font-family: Helvetica Neue;
-      font-weight: bold;
-      font-size: small;
-      color: Black;
-    }
-    .symbol{
-      margin-bottom: 50px;
-    }
-    #newproduct{
-      border-top: 1px solid black;
-      text-align: center;
-      font-family: Helvetica Neue;
-      font-weight: bold;
-    }
-    
-    ul.top-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-
-  ul.top-links li {
-    float: right;
-  }
-
-  ul.top-links li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    padding-right: 30px;
-    padding-left: 30px;
-    text-decoration: none;
-}
-
-  ul.top-links li a:hover {
-    background-color: #111111;
-}
-
-ul.mid-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-
-  ul.mid-links li {
-    float: left;
-  }
-
-  ul.mid-links li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    padding-right: 30px;
-    padding-left: 30px;
-    text-decoration: none;
-    font-size: large;
-    font-weight: 500;
-    border-top: solid black;
-}
-
-ul.mid-links li a:hover {
-    color: blue;
-}
-
-
-</style>
-
+<?php
+       include 'top-header.php';
+?>
+       
    </head>
    <body>
 <ul class="top-links">
-  <li><a href="shop.html">SHOP HERE</a></li>
+  <li><a href="shop.html">CATALOG</a></li>
   <li><a href="#register">REGISTER</a></li>
   <li><a href="login.html">LOGIN</a></li>
   <li style="float: left"><a href="welcome.html";">HOME</a></li>
 </ul> 
 
     <div id="Welcome" class="headline">
-    <h1>ANEA Inc.</h1>
+    <h1>LA PORTFOLIO I</h1>
     </div>
     <div id = "mission">
-      <h2>Delivering to You the World's Finest Wearable Nano Technology since 2025.</h2>
+      <h2>WELCOME TO MY HOMEPAGE. I'M INTERESTED IN MAKING TOP-QUALITY INTERACTIVE WEBSITE AND WIN A CSS AWARD OR TWO.</h2>
     </div>
     <div id="symbol">
     <p style="text-align: center;"> 
@@ -124,19 +32,18 @@ ul.mid-links li a:hover {
   </div>
 
   <ul class="mid-links" style="margin-left: 450px">
-  <li><a href="#news">NEWS</a></li>
+  <li><a href="#news">NEWS BLOG</a></li>
   <li><a href="#products">PRODUCTS</a></li>
   <li><a href="#careers">INVESTORS</a></li>
-  <li><a href="#careers">CAREER</a></li>
-  <li><a href="#about";">ABOUT US</a></li>
+  <li><a href="#about";">ABOUT CREATOR</a></li>
   <li><a href="#contact";">CONTACTS</a></li>
-  <li><a href="#contact";">LEARN MORE</a></li>
+
 </ul> 
 
   <div id="newproduct" class="headline productpanel">
-      <h1>Introducing the Nanosuit 3.0</h1>
+      <h1><a href="assigments">ASSIGNMENTS</a></h1>
     <img src="nanosuit1.jpg" alt="nano1">
   </div>
-     <p class="footer"> Copyright &#xa9 2025 ANEA Inc. All Rights Reserved</p>
+     <p class="footer"> Copyright &#xa9 2025 CU Inc. All Rights Reserved</p>
    </body>
 </html>
