@@ -1,0 +1,37 @@
+  .footer{ 
+       position: static;     
+       padding-left: 25px;
+       left: 0px;    
+       bottom: 0px; 
+       width: 100%;
+       border-top: 1px solid black;
+       font-family: Courier;
+       font-size: normal;
+    }
+
+   body{
+    background-color: white;
+   }  
+    #Welcome{
+      text-align: center;
+      font-family: Helvetica Neue;
+      font-weight: bolder;
+      color: Black;
+      margin-bottom: -30px;
+    }
+    #mission{
+      margin-left: 625px;
+      font-family: Helvetica Neue;
+      font-weight: bold;
+      font-size: small;
+      color: Black;
+    }
+    .symbol{
+      margin-bottom: 50px;
+    }
+    #newproduct{
+      border-top: 1px solid black;
+      text-align: center;
+      font-family: Helvetica Neue;
+      font-weight: bold;
+    }
