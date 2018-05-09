@@ -22,9 +22,6 @@
     <div id="Welcome" class="headline">
     <h1>LA PORTFOLIO I</h1>
     </div>
-    <div id = "mission">
-      <h2>WELCOME TO MY HOMEPAGE. I'M INTERESTED IN MAKING TOP-QUALITY INTERACTIVE WEBSITE AND WIN A CSS AWARD OR TWO.</h2>
-    </div>
     <div id="symbol">
     <p style="text-align: center;"> 
       <!-- <a href="secondpage.html"> -->
@@ -40,10 +37,14 @@
   <li><a href="#contact";">CONTACTS</a></li>
 
 </ul> 
+    <div id = "mission">
+      <h2>WELCOME TO MY HOMEPAGE. I'M INTERESTED IN MAKING TOP-QUALITY INTERACTIVE WEBSITE AND WIN A CSS AWARD OR TWO.</h2>
+    </div>
 
   <div id="newproduct" class="headline productpanel">
       <h1><a href="assigments.php">ASSIGNMENTS</a></h1>
   </div>
+    
      <p class="footer"> Copyright &#xa9 2025 CU Inc. All Rights Reserved</p>
    </body>
 </html>
