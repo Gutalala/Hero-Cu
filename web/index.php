@@ -3,12 +3,12 @@
    <head>
     <link href="style.css" type="text/css" rel="stylesheet">
        <title>ANEA Official Website</title>
-       <meta charset="utf-8">       
+       <meta charset="utf-8">   
+       <style>
+           <?php include 'top-header.php' ?>
+       </style>    
    </head>
    <body>
-   <?php
-       include 'top-header.php';
-       ?>
 <ul class="top-links">
   <li><a href="shop.html">CATALOG</a></li>
   <li><a href="#register">REGISTER</a></li>
