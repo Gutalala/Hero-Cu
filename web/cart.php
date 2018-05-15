@@ -27,17 +27,15 @@
       <div class="column col4">
         <ul class="products">
           <form id="form2">
-          <li><input oninput="subTotal('price1','quantity1', 'sub1'); 
-            runningTotal('quantity1', 'price1')" id="quantity1" class="quantity" 
+          <li><input id="quantity1" class="quantity" 
                      placeholder="0" size="3"></li>
-          <li><input oninput="subTotal('price2','quantity2', 'sub2'); 
-            runningTotal('quantity2', 'price2')" id="quantity2" class="quantity"  
+          <li><input id="quantity2" class="quantity"  
                      placeholder="0" size="3"></li>
-          <li><input oninput="subTotal('price3','quantity3', 'sub3'); 
-            runningTotal('quantity3', 'price3')" id="quantity3" class="quantity" 
+          <li><input id="quantity3" class="quantity" 
                      placeholder="0" size="3"></li>
           </form>
        </ul>
      </div>
+    </div>
 </body>
 </html>
