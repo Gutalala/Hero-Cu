@@ -17,12 +17,12 @@
      <button >ADD</button>
   </div>
   <div class="column">
-    <img class="products" src="nanobeta.jpg" alt="beta" width="300" height="300">
+    <img class="products" src="nanobeta.jpg" alt="beta" style='height: 100%; width: 100%; object-fit: contain'>
     <br>
     <button>ADD</button>
   </div>
   <div class="column">
-    <img class="products" src="nanosuit1.jpg" alt="nano1" width="300" height="300">
+    <img class="products" src="nanosuit1.jpg" alt="nano1" style='height: 100%; width: 100%; object-fit: contain'>
     <br>
     <button>ADD</button>
   </div>
