@@ -10,7 +10,7 @@
 <body>
     <div class="column middle">
       <div class="column col1">
-        <ul style="list-style-type: none;">
+        <ul class="productsImage">
           <li id="prod1"><img class="products" src="nanoalpha.jpg" alt="alpha" width="300" height="300"></li>
           <br>
           <hr>
@@ -23,7 +23,7 @@
         </ul>
       </div>
       <div class="column col2">
-          <ul style="list-style-type: none;">
+          <ul class="productsName">
               <li> The Original Suit - Ground Combat Specialist</li>
               <li> The Derivative Suit - Designed for Underwater</li>
               <li> The Edge Suit - Adapt to All Combat </li>     

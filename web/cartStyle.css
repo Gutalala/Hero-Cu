@@ -3,6 +3,16 @@
   list-style-type: none;
 }
 
+.productsImage {
+  display: block;
+  list-style-type: none;
+}
+
+.productsName {
+  display: block;
+  list-style-type: none;
+}
+
 .column {
   float: left;
   padding: 10px;
