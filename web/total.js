@@ -17,6 +17,6 @@ function runningTotal() {
 }
 
 var btn = document.getElementById("cartBtn");
-btn.addEventListener('click', btnFuction(){
+btn.addEventListener('click', function(){
                      document.location.href = "cart.php";
                      });
