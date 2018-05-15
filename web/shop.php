@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <script type="text/javascript" src="total.js"></script>
       <link href="style.css" type="text/css" rel="stylesheet">
       <title>ANEA SHOP</title>
        <meta charset="utf-8">
@@ -56,4 +55,5 @@
         </ul>
       </div>
   </body>
+<script type="text/javascript" src="total.js"></script>
 </html> 
