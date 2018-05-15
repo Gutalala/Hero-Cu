@@ -8,6 +8,9 @@
 </head>
 
 <body>
+     <?php
+    include 'header.php';
+    ?>
       <div class="column col2">
           <ul class="productsName">
               <li> Original Suit </li>
