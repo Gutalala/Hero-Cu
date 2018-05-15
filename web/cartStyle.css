@@ -1,0 +1,38 @@
+.products {
+  display: block;
+  list-style-type: none;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+  background-color: white;
+  border-radius: 0px 35px 0px 0px;
+}
+
+.col3 {
+    padding-bottom: 200px;
+}
+.col4 {
+    padding-bottom: 200px;
+}
+.col5 {
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+ul.products li{
+  font-size: 20px;
+  padding: 40px;
+  padding-bottom: 300px;
+}
+
+.cartBtn {
+  width: 200px;
+  height: 100px;
+  align-content: center;
+}
