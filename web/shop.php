@@ -7,6 +7,7 @@
 </head>
 <body>
   
+     
       <button id="cartBtn">VIEW CART</button>
   </body>
 <script type="text/javascript" src="total.js"></script>

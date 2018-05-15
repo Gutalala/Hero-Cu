@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="column middle">
+    <div>
       <div class="column col1">
         <ul class="productsImage">
           <li id="prod1"><img class="products" src="nanoalpha.jpg" alt="alpha" width="300" height="300"></li>
@@ -41,5 +41,6 @@
           </form>
        </ul>
      </div>
+    </div>
 </body>
 </html>
