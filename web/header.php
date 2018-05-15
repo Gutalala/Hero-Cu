@@ -26,8 +26,6 @@
     </style>
        
         <ul class="top-links">
-  <li><a class="home" href="home.php">HOME</a></li>
-  <li><a class="login" href="login.php">LOGIN</a></li>
-  <li><a class="aboutpage" href="aboutpage.php">ABOUT US</a></li>
+  <li><a class="cart" href="cart.php">SHOPPING CART</a></li>
         </ul>
         
