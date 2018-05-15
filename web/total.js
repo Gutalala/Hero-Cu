@@ -15,3 +15,8 @@ function runningTotal() {
     document.getElementById("derivativetotal").value = document.getElementById("sub2").value;
     document.getElementById("edgetotal").value = document.getElementById("sub3").value;
 }
+
+var btn = document.getElementById("cartBtn");
+btn.addEventListener('click', btnFuction(){
+                     document.location.href = "cart.php";
+                     });

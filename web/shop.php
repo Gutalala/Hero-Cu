@@ -29,7 +29,7 @@
           <li id="price1" name="price" value="1.00">&#9791;1</li>
           <li id="price2" name="price" value="2.00">&#9791;2</li>
           <li id="price3" name="price" value="3.00">&#9791;3</li>
-          <li class="button">Your Total</button></li>
+          <button id="cartBtn">VIEW CART</button>
         </ul>
       </div>
       <div class="column col4">
