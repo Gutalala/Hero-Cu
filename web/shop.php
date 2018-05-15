@@ -8,15 +8,15 @@
 <body>
       
  <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column">
      <img class="products" src="nanoalpha.jpg" alt="alpha" width="300" height="300">
      <button>ADD</button>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column">
     <img class="products" src="nanobeta.jpg" alt="beta" width="300" height="300">
     <button>ADD</button>
   </div>
-  <div class="column" style="background-color:#ccc;">
+  <div class="column">
     <img class="products" src="nanosuit1.jpg" alt="nano1" width="300" height="300">
     <button>ADD</button>
   </div>
