@@ -12,7 +12,7 @@
     <h1 style="text-align: center";><strong>THE STORE</strong></h1>
  <div class="row">
   <div class="column">
-     <img class="products" src="nanoalpha.jpg" alt="alpha" max-width:100% max-height:100%>
+     <img class="products" src="nanoalpha.jpg" alt="alpha" style='height: 100%; width: 100%; object-fit: contain'>
      <br>
      <button >ADD</button>
   </div>
