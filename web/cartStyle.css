@@ -3,11 +3,6 @@
   list-style-type: none;
 }
 
-.productsImage {
-  display: block;
-  list-style-type: none;
-}
-
 .productsName {
   display: block;
   list-style-type: none;
@@ -19,15 +14,6 @@
     display: inline-block;
 }
 
-.left {
-  width: 25%;
-  background-color: white;
-  border-radius: 0px 35px 0px 0px;
-}
-
-.col1 {
-    padding-bottom: 200px;
-}
 .col3 {
     padding-bottom: 200px;
 }
@@ -40,6 +26,7 @@ ul.productsName li{
   font-size: 20px;
   padding: 40px;
   padding-bottom: 300px;
+  font-weight: bold;
 }
 
 ul.products li{
@@ -48,8 +35,3 @@ ul.products li{
   padding-bottom: 300px;
 }
 
-.cartBtn {
-  width: 200px;
-  height: 100px;
-  align-content: center;
-}
