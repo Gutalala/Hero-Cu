@@ -15,13 +15,13 @@
   border-radius: 0px 35px 0px 0px;
 }
 
+.col1 {
+    padding-bottom: 200px;
+}
 .col3 {
     padding-bottom: 200px;
 }
-.col4 {
-    padding-bottom: 200px;
-}
-.col5 {
+.col2 {
   padding-bottom: 200px;
   text-align: center;
 }
