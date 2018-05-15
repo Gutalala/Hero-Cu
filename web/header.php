@@ -25,7 +25,8 @@
 }
     </style>
        
-        <ul class="top-links">
-  <li><a class="cart" href="cart.php">SHOPPING CART</a></li>
+    <ul class="top-links">
+        <li><a class="store" href="shop.php">STORE</a></li>
+        <li><a class="cart" href="cart.php">SHOPPING CART</a></li>
         </ul>
         
