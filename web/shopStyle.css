@@ -4,16 +4,12 @@
   align-items: center;
 }
 
-.productsImage li{
-  display: inline;
-  list-style-type: none;
-}
-
 .column {
   float: left;
-  width: 33.33%; 
+  width: 350px; 
   padding: 10px;
-  border-right: 5px solid black;   
+  border-right: 5px solid black; 
+  border-bottom: 5px solid black;     
 }
 
 .row {
