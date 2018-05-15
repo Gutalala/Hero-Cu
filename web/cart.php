@@ -30,6 +30,7 @@
           <form id="form2">
           <li><input id="quantity1" class="quantity" 
                      placeholder="0" size="3"></li>
+                     <a>remove</a>
           <li><input id="quantity2" class="quantity"  
                      placeholder="0" size="3"></li>
           <li><input id="quantity3" class="quantity" 
