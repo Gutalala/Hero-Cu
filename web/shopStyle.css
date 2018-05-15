@@ -1,11 +1,5 @@
-.cartBtn {
-  width: 200px;
-  height: 100px;
-  align-items: center;
-}
-
 .column {
-  float: right;
+  float: left;
   padding-top: 300px;
   width: 350px; 
   padding: 10px;
@@ -14,7 +8,7 @@
 }
 
 .row {
-   
+    text-align: center;
   border-left: 5px solid black; 
 }
 

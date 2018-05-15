@@ -14,7 +14,7 @@
   <div class="column">
      <img class="products" src="nanoalpha.jpg" alt="alpha" width="300" height="300">
      <br>
-     <button>ADD</button>
+     <button >ADD</button>
   </div>
   <div class="column">
     <img class="products" src="nanobeta.jpg" alt="beta" width="300" height="300">
@@ -27,8 +27,7 @@
     <button>ADD</button>
   </div>
 </div>
-      
-      <button id="cartBtn">VIEW CART</button>
+
   </body>
 <script type="text/javascript" src="total.js"></script>
 </html> 
