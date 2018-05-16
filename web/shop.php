@@ -7,7 +7,7 @@ $_SESSION["edge"] = 0;
 if (isset($_POST['action'])) {
     switch ($_POST['action']) {
         case 'add1':
-            add1();
+            alert("hiela");
             break;
         case 'add2':
             add2();
@@ -18,9 +18,8 @@ if (isset($_POST['action'])) {
     }
 }
 
-function add1() {
-    echo "The select function is called.";
-    exit;
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
 }
 
 function add2() {
