@@ -24,12 +24,12 @@
   <div class="column">
     <img class="products" src="nanobeta.jpg" alt="beta" style='height: 100%; width: 100%; object-fit: contain; padding-bottom: 20px'>
     <br>
-    <button style="font-size: 17px">ADD TO CART</button>
+    
   </div>
   <div class="column">
     <img class="products" src="nanosuit1.jpg" alt="nano1" style='height: 100%; width: 100%; object-fit: contain; padding-bottom: 20px'>
     <br>
-    <button style="font-size: 17px">ADD TO CART</button>
+    
   </div>
 </div>
 
