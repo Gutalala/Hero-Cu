@@ -1,8 +1,4 @@
 <?php
-$_SESSION["original"] = 0;
-$_SESSION["derivative"] = 0;
-$_SESSION["edge"] = 0;
-
 if (isset($_POST['action'])) {
     switch ($_POST['action']) {
         case 'add1':

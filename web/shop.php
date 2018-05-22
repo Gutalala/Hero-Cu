@@ -1,5 +1,8 @@
 <?php
    session_start();
+$_SESSION["original"] = 0;
+$_SESSION["derivative"] = 0;
+$_SESSION["edge"] = 0;
 ?>
 
 <!DOCTYPE html>
