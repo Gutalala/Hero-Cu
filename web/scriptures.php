@@ -14,6 +14,9 @@ $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPass
 
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+echo '<h1>' . 'Scriptures Resources' . '</h1>';
+echo '<br/>';
+
 foreach ($db->query('SELECT  id, book, chapter, verse, content FROM Scriptures') as $row)
 {
   echo '<strong>' . $row['book'] . '</strong>';
