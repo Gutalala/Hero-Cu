@@ -16,11 +16,11 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 foreach ($db->query('SELECT  id, book, chapter, verse, content FROM Scriptures') as $row)
 {
-  echo 'id: ' . $row['id'];
-  echo ' book: ' . $row['book'];
-  echo ' chapter: ' . $row['chapter'];
-  echo ' verse: ' . $row['verse'];
-  echo ' content: ' . $row['content'];
+  echo '<strong>' . $row['book'] . '</strong>';
+  echo ' ';
+  echo '<strong>' . $row['chapter'] . ':' . '</strong>';
+  echo '<strong>' . $row['verse'] . '</strong>';
+  echo ' - "' . $row['content'] . '"';
   echo '<br/>';
 }
 
