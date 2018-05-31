@@ -8,7 +8,7 @@
  	die("DB Connection was not set");
  }
 
- $query = "SELECT id, name, number FROM course";
+$query = "SELECT id, name, number FROM course";
 $statement = $db->prepare($query);
 $statement->execute();
 
