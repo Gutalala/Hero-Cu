@@ -28,7 +28,7 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
  	<?php
  	var_dump($courses);
  	?>
- 	
+ 	<li><p>Shell me</p></li>
  </ul>
 </body>
 </html>
