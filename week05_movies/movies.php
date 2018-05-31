@@ -22,8 +22,6 @@ die();
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +30,8 @@ die();
 <body>
  	<h1 style="text-align: center;">MOVIES LIST</h1>
  	<ul>
- 		<li>KING OF HEARTS</li>
+ 		<?php
+ 		
  	</ul>
 </body>
 </html> 

@@ -1,0 +1,1 @@
+CREATE TABLE scriptures2topics (topicId FOREIGN KEY)
