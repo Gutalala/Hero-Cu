@@ -24,7 +24,14 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
  <h1>COURSES</h1>
  <ul>
  	<?php
- 	var_dump($courses);
+ 	foreach ($courses as $course => $value) {
+ 		# code...
+ 		$id = $course["id"];
+ 		$name = $course["name"];
+ 		$number = $course["number"];
+
+ 		echo "<li><a href='courseDetails.php?course_id=$id'>$number - $name</a></li>";
+ 	}
  	?>
  	<li><p>Course 1</p></li>
  	<li><p>Course 2</p></li>
