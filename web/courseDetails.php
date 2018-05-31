@@ -6,6 +6,8 @@ $courseId = htmlspecialchars($_GET["course_id"]);
 
 $db = get_db();
 
-$query = "SELECT name, number FROM course WHERE id=$courseId";
+$query = "SELECT name, number FROM course WHERE id=$id";
+
+
 
 ?>
