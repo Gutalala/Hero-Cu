@@ -25,10 +25,10 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
 <body>
  <h1>COURSES</h1>
  <ul>
- 	<li><p>Course 1</p></li>
- 	<li><p>Course 2</p></li>
- 	<li><p>Course 3</p></li>
- 	<li><p>Course 4</p></li>
+ 	<?php
+ 	var_dump($courses);
+ 	?>
+ 	
  </ul>
 </body>
 </html>
