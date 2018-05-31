@@ -24,11 +24,10 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
  <h1>COURSES</h1>
- <ul>
+ <p>
  	<?php
  	var_dump($courses);
  	?>
- 	<li><p>Shell me</p></li>
- </ul>
+</p>
 </body>
 </html>
