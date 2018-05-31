@@ -20,11 +20,14 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>One Two Three</title>
 </head>
 <body>
  <h1>COURSES</h1>
  <ul>
+ 	<?php
+ 	var_dump($courses);
+ 	?>
  	<li><p>Shell me</p></li>
  </ul>
 </body>
