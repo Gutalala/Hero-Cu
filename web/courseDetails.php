@@ -6,9 +6,11 @@ $courseId = htmlspecialchars($_GET["course_id"]);
 
 $db = get_db();
 
-$query = "SELECT name, number FROM course WHERE id=1";
+$query = "SELECT name, number FROM course WHERE id=:id";
 
 $statement = $db->prepare($query);
+$statement->bindValue(":id", $courseId, PDO::PARAM_INT);
+
 $statement->execute();
 $row = $statement->fetch();
 

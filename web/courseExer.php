@@ -33,10 +33,7 @@ $courses = $statement->fetchAll(PDO::FETCH_ASSOC);
  		echo "<li><a href='courseDetails.php?course_id=$id'>$number - $name</a>CLick me</li>";
  	}
  	?>
- 	<li><p>Course 1</p></li>
- 	<li><p>Course 2</p></li>
- 	<li><p>Course 3</p></li>
- 	<li><p>Course 4</p></li>
+
  </ul>
 </body>
 </html>
