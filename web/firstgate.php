@@ -258,7 +258,7 @@ Stock photo right now for A Day In The Life..
     </div>
 
     <form action="register.php" method="get">
-     <input class="button" type="submit"/>Register</form>
+     <input class="button" type="submit" value="Register"/></form>
     <a class="button" href="#turism">Register</a>
   </div>
 <!-- End .primary -->
