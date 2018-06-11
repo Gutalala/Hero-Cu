@@ -258,6 +258,7 @@ Stock photo right now for A Day In The Life..
     </div>
 
     <a class="button" href="#turism">Login</a>
+    <a class="button" href="#turism">Register</a>
   </div>
 <!-- End .primary -->
 
