@@ -246,7 +246,7 @@ Stock photo right now for A Day In The Life..
       A Day In The Life is a space created for people to share what it's like to lead the lives that they do. From garbage man to nuclear scientists,
       engineer to social workers, here we earnestly share the truth of living, and break the illusions of grandeur that social media tend to create. 
     </p>
-    <a class="button" href="#howay">Register</a>
+    <a class="button" href="#howay">Find out more</a>
 
     <div class="bg">
       <div class="howay"  id="howay">
@@ -257,7 +257,8 @@ Stock photo right now for A Day In The Life..
       </div>
     </div>
 
-    <a class="button" href="#turism">Login</a>
+    <form action="register.php" method="get">
+     <input class="button" type="submit"/>Register</form>
     <a class="button" href="#turism">Register</a>
   </div>
 <!-- End .primary -->
