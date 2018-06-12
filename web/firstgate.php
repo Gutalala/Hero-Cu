@@ -244,7 +244,7 @@ Stock photo right now for A Day In The Life..
 
     <p class="intro">
       A Day In The Life is a space created for people to tell their stories - what it is like to lead the lives that they do. From garbage man to nuclear scientists,
-      engineer to social workers, here we earnestly share the truth of living, and break the illusions of grandeur that social media tend to create. 
+      engineer to social workers, here we earnestly share the truth of living, and break any illusion of grandeur or austerity that social media may have created. 
     </p>
     <a class="button" href="#howay">Find out more</a>
 
