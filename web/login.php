@@ -70,7 +70,7 @@ body {
       <label class="checkbox">
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>
-      <input class="btn btn-lg btn-primary btn-block" type="submit" value="Register"/>   
+      <input class="btn btn-lg btn-primary btn-block" type="submit" value="Login"/>   
     </form>
   </div>
 </body>
