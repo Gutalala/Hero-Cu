@@ -252,7 +252,7 @@ Stock photo right now for A Day In The Life..
       <div class="howay"  id="howay">
         <h2>For The Children!</h2>
         <p>
-          As the creator of this website, I dedicate it to the betterment of future generation. My deepest wish is for anyone who reads our articles to be <b>guided</b> and <b>inspired</b> by the bittersweet human experiences existing in every career.
+          This website is dedicated to the betterment of future generation. My deepest wish is for anyone who reads our articles to be <b>guided</b> and <b>inspired</b> by the invaluable human growing experiences existing in every career.
         </p>
       </div>
     </div>
