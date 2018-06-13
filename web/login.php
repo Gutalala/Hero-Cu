@@ -116,8 +116,8 @@ body {
   <div class="wrapper">
     <form class="form-signup" action="login.php" method="POST">       
       <h2 class="form-signup-heading">Login</h2>
-      <input type="text" class="form-control" id="txtUser" name="username" placeholder="Username" required="" autofocus="" />
-      <input type="password" class="form-control" id="txtPassword" name="password" placeholder="Password" required=""/>      
+      <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Username" required="" autofocus="" />
+      <input type="password" class="form-control" id="txtPassword" name="txtPassword" placeholder="Password" required=""/>      
       <label class="checkbox">
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>

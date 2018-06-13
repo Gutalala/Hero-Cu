@@ -65,10 +65,10 @@ body {
   <div class="wrapper">
     <form class="form-signup" action="create_user.php" method="POST">       
       <h2 class="form-signup-heading">Sign Up</h2>
-      <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Username" required="" autofocus="" />
       <label for="txtUser">Username</label>
-      <input type="password" class="form-control" id="txtpassword" name="txtPassword" placeholder="Password" required=""/>
-      <label for="txtPassword">Password</label>      
+      <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Username" required="" autofocus="" />
+      <label for="txtPassword">Password</label>    
+      <input type="password" class="form-control" id="txtpassword" name="txtPassword" placeholder="Password" required=""/>  
       <input class="btn btn-lg btn-primary btn-block" type="submit" value="Create Account"/>   
     </form>
   </div>
