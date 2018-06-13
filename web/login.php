@@ -122,9 +122,9 @@ body {
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>
       <input class="btn btn-lg btn-primary btn-block" type="submit" value="Login"/>
+      <br>
+      Or <a href="register.php">Sign up</a> for a new account.
     </form>
-    <br>
-    Or <a href="register.php">Sign up</a> for a new account.
   </div>
 </body>
 </html>
