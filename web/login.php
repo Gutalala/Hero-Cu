@@ -4,6 +4,12 @@ session_start();
 
 $badlogin = false;
 
+if (isset($_SESSION['username']))
+{
+	header("Location: home.php");
+	die(); // we always include a die after redirects.
+}
+
 if (isset($_POST['txtUser']) && isset($_POST['txtPassword'])) {
 	# code...
 	// they have submitted a username and password for us to check
