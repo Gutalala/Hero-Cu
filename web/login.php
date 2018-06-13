@@ -17,7 +17,7 @@ if (isset($_POST['txtUser']) && isset($_POST['txtPassword'])) {
 	$query = 'SELECT password FROM Users WHERE username=:username';
 
 	$statement = $db->prepare($query);
-	$statement->bindValue(':username, $username');
+	$statement->bindValue(':username', $username);
 
 	$result = $statement->execute();
 
