@@ -18,7 +18,7 @@ $password = $_POST['txtPassword'];
 if (!isset($username) || $username == ""
 	|| !isset($password) || $password == "")
 {
-	header("Location: signUp.php");
+	header("Location: register.php");
 	die(); // we always include a die after redirects.
 }
 // Let's not allow HTML in our usernames. It would be best to also detect this before
