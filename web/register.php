@@ -66,7 +66,9 @@ body {
     <form class="form-signup" action="create_user.php" method="post">       
       <h2 class="form-signup-heading">Sign Up</h2>
       <input type="text" class="form-control" id="txtUser" name="username" placeholder="Username" required="" autofocus="" />
-      <input type="password" class="form-control" id="txtpassword" name="password" placeholder="Password" required=""/>      
+      <label for="txtUser">Username</label>
+      <input type="password" class="form-control" id="txtpassword" name="password" placeholder="Password" required=""/>
+      <label for="txtPassword">Password</label>      
       <input class="btn btn-lg btn-primary btn-block" type="submit" value="Create Account"/>   
     </form>
   </div>
