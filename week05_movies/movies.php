@@ -30,8 +30,7 @@ die();
 <body>
  	<h1 style="text-align: center;">MOVIES LIST</h1>
  	<ul>
- 		<?php
- 		
+ 	
  	</ul>
 </body>
 </html> 
