@@ -38,7 +38,7 @@ ul.top-links {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #304056;
     font-family:"Voltaire";
   }
 ul.top-links li {
