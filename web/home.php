@@ -69,6 +69,8 @@ ul.top-links li a:hover {
 <body>       
     <ul class="top-links">
         <li><a class="store" href="logout.php">LOG OUT</a></li>
+        <li><a class="store" href="lo.php">CREATE NEW ARTICLE</a></li>
         </ul>
         
+    
 </body></html>
