@@ -1,6 +1,6 @@
 <?php
 /**********************************************************
-* File: createAccount.php
+* File: create_user.php
 * Author: Br. Burton
 * 
 * Description: Accepts a new username and password on the
@@ -18,7 +18,7 @@ $password = $_POST['txtPassword'];
 if (!isset($username) || $username == ""
 	|| !isset($password) || $password == "")
 {
-	header("Location: login.php");
+	header("Location: register.php");
 	die(); // we always include a die after redirects.
 }
 // Let's not allow HTML in our usernames. It would be best to also detect this before
