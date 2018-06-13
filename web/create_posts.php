@@ -74,7 +74,7 @@ ul.top-links li a:hover {
 		<input type="text" name="date" placeholder="Date"><br>
 		<input type="text" name="author" placeholder="Author"><br>
 		<input type="text" name="title" placeholder="Title"><br>
-		<textarea name="content" placeholder="Content" cols="50" rows="150"></textarea>
+		<textarea name="content" placeholder="Content" cols="100" rows="100"></textarea>
 
 <br><br>
 		<input type="submit" value="Publish Article">
