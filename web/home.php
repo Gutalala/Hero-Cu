@@ -19,10 +19,10 @@ else
 }
 require("dbConnect.php");
 $db = get_db();
-$query = "SELECT author, title, content, post_date FROM Posts WHERE username=:username";
+$query = "SELECT author, title, content, post_date FROM Posts WHERE username=$username";
 $statement = $db->prepare($query);
 // Bind any variables I need, here...
-$statement->bindValue(":username", $username, PDO::PARAM_STR);
+//$statement->bindValue(":username", $username, PDO::PARAM_STR);
 $statement->execute();
 $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
