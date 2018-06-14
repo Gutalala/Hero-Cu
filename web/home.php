@@ -80,7 +80,7 @@ ul.top-links li a:hover {
         </ul>
 
     <?php
-    foreach ($posts as $Posts => $value) {
+    foreach ($posts as $Posts) {
     	# code...
     	$author = $Posts["author"];
     	$title = $Posts["title"];
