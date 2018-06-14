@@ -157,6 +157,7 @@ a:focus {
 
 .howay {
   padding: 20%;
+  color: #fff;
   margin: 80px auto 20px;
   border-radius: 8px;
   background-image: -webkit-linear-gradient(-45deg, rgba(19, 9, 51, 0.9), rgba(19, 9, 51, 0.9)), url("http://i1.thejournal.co.uk/incoming/article4341038.ece/alternates/s615/aerial-view-of-newcastle-and-gateshead-981645981.jpg");
