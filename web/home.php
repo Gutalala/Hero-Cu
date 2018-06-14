@@ -114,7 +114,7 @@ ul.top-links li a:hover {
     	$content = $Posts["content"];
     	$post_date = $Posts["post_date"];
  
- 		echo "<div class="col-md-9 blogShort">";
+ 		echo "<div class='blogShort'>";
  		echo "<h1> . $title .</h1>";
  		echo "<article>";
     	echo "<p> . $author .</p>";
