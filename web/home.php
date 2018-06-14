@@ -17,6 +17,13 @@ else
 	header("Location: login.php");
 	die(); // we always include a die after redirects.
 }
+require("dbConnect.php");
+$db = get_db();
+$query = "SELECT author, title, content, post_date FROM Posts";
+$statement = $db->prepare($query);
+// Bind any variables I need, here...
+$statement->execute();
+$posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html><html class=''>
@@ -71,6 +78,21 @@ ul.top-links li a:hover {
         <li><a class="store" href="logout.php">LOG OUT</a></li>
         <li><a class="store" href="create_posts.php">CREATE NEW ARTICLE</a></li>
         </ul>
+
+    <?php
+    echo "<div class="col-md-9 blogShort">";
+    echo "<h1>";
+    foreach ($posts as $Posts => $value) {
+    	# code...
+    	$author = $Posts["author"];
+    	$title = $Posts["title"];
+    	$content = $Posts["content"];
+    	$post_date = $Posts["post_date"];
+
+
+    	echo "<p> . $author .</p>";
+    }
+
         
 
 </body></html>
