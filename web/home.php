@@ -73,7 +73,7 @@ ul.top-links li a:hover {
     background-color: #111111;
 }
 
-.blogShort{ border-bottom:1px solid #ddd;}
+.blogShort{ border-bottom:1px solid #ddd; color: #fff;}
 .add{background: #333; padding: 10%; height: 300px;}
 
 
@@ -115,7 +115,7 @@ ul.top-links li a:hover {
     	$post_date = $Posts["post_date"];
  
  		echo "<div class='blogShort'>";
- 		echo "<h1> . $title .</h1>";
+ 		echo "<h1>" . $title ."</h1>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
     	echo "<p>" .$post_date ."</p>";
