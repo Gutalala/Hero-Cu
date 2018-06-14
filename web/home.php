@@ -86,12 +86,13 @@ ul.top-links li a:hover {
     	$title = $Posts["title"];
     	$content = $Posts["content"];
     	$post_date = $Posts["post_date"];
-
-
+ 
+ 		echo "<article>";
     	echo "<p> . $author .</p>";
     	echo "<p> . $title .</p>";
     	echo "<p> . $content .</p>";
     	echo "<p> . $post_date .</p>";
+    	echo "</article>";
     }
 ?>
         
