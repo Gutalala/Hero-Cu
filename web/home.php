@@ -121,6 +121,7 @@ ul.top-links li a:hover {
     	echo "<p> . $post_date .</p>";
     	echo "<p> . $content .</p>";
     	echo "</article>";
+    	echo "</div>";
     }
 	?>
 	</div>
