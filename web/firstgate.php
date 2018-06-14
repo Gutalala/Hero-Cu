@@ -244,15 +244,15 @@ Stock photo right now for A Day In The Life..
 
     <p class="intro">
       A Day In The Life is a space created for people to tell their stories - what it is like to lead the lives that they do. From garbage man to nuclear scientists,
-      engineer to social workers, here we earnestly share the truth of living, and break any illusion of grandeur or austerity that social media may have created. 
+      engineer to social workers, here we earnestly share the truth of living, and break any illusion of grandeur or austerity that we may have.
     </p>
     <a class="button" href="#howay">Find out more</a>
 
     <div class="bg">
       <div class="howay"  id="howay">
-        <h2>For The Children!</h2>
+        <h2>Version 1.0</h2>
         <p>
-          This website is dedicated to the betterment of future generation. My deepest wish is for anyone who reads our articles to be <b>guided</b> and <b>inspired</b> by the invaluable human growing experiences existing in every career.
+          In this first iteration of the website, you can only view your own your articles, but don't worry! A central hub where everyone can publish their article is in the work!
         </p>
       </div>
     </div>
