@@ -78,7 +78,7 @@ ul.top-links li a:hover {
         <li><a class="store" href="logout.php">LOG OUT</a></li>
         <li><a class="store" href="create_posts.php">CREATE NEW ARTICLE</a></li>
         </ul>
-
+    <div class="container">
     <?php
     foreach ($posts as $Posts) {
     	# code...
@@ -87,14 +87,17 @@ ul.top-links li a:hover {
     	$content = $Posts["content"];
     	$post_date = $Posts["post_date"];
  
+ 		echo "<div class="col-md-9 blogShort">";
+ 		echo "<h1> . $title .</h1>";
  		echo "<article>";
     	echo "<p> . $author .</p>";
-    	echo "<p> . $title .</p>";
-    	echo "<p> . $content .</p>";
     	echo "<p> . $post_date .</p>";
+    	echo "<p> . $content .</p>";
     	echo "</article>";
     }
-?>
+	?>
+	</div>
         
 
-</body></html>
+</body>
+</html>
