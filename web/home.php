@@ -80,8 +80,6 @@ ul.top-links li a:hover {
         </ul>
 
     <?php
-    echo "<div class="col-md-9 blogShort">";
-    echo "<h1>";
     foreach ($posts as $Posts => $value) {
     	# code...
     	$author = $Posts["author"];
@@ -91,6 +89,9 @@ ul.top-links li a:hover {
 
 
     	echo "<p> . $author .</p>";
+    	echo "<p> . $title .</p>";
+    	echo "<p> . $content .</p>";
+    	echo "<p> . $post_date .</p>";
     }
 
         
