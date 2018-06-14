@@ -117,9 +117,9 @@ ul.top-links li a:hover {
  		echo "<div class='blogShort'>";
  		echo "<h1> . $title .</h1>";
  		echo "<article>";
-    	echo "<p> . $author .</p>";
-    	echo "<p> . $post_date .</p>";
-    	echo "<p> . $content .</p>";
+    	echo "<p>" .$author ."</p>";
+    	echo "<p>" .$post_date ."</p>";
+    	echo "<p>" .$content ."</p>";
     	echo "</article>";
     	echo "</div>";
     }
