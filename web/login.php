@@ -122,7 +122,7 @@ body {
   <div class="wrapper">
     <form class="form-signup" action="login.php" method="POST">       
       <h2 class="form-signup-heading">Login</h2>
-      <br><br>
+      <br>
       <?php 
       if ($badlogin==true) {
       	# code...

@@ -69,6 +69,7 @@ body {
       <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Username" required="" autofocus="" />
       <label for="txtPassword">Password</label>    
       <input type="password" class="form-control" id="txtpassword" name="txtPassword" placeholder="Password" required=""/>  
+      <br>
       <input class="btn btn-lg btn-primary btn-block" type="submit" value="Create Account"/>   
     </form>
   </div>
