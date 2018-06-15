@@ -128,9 +128,10 @@ a.editButton {
     appearance: button;
 
     padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px
+    padding-right: 20px;
+    padding-left: 20px;
     text-decoration: none;
+    text-align: center;
     color: initial;
 }
 .editCol {
