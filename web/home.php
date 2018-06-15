@@ -25,7 +25,7 @@ $sth = $db->query($query2);
 
 while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 	# code...
-	$id = $row["id"];
+	$user_id = $row["id"];
 }
 
 $query = "SELECT author, title, content, post_date FROM Posts WHERE user_id=:id";
@@ -113,7 +113,7 @@ ul.top-links li a:hover {
 <body>       
     <ul class="top-links">
         <li><a class="store" href="logout.php">LOG OUT</a></li>
-        <li><a class="store" href="create_posts.php?user_id=$id">CREATE NEW ARTICLE</a></li>
+        <li><a class="store" href="create_posts.php?user_id=$user_id">CREATE NEW ARTICLE</a></li>
         </ul>
     <div class="container">
     <?php
