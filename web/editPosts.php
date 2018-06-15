@@ -29,10 +29,6 @@ foreach ($posts as $Posts) {
     	$post_date = $Posts["post_date"];
     }
 
-$query3 = "DELETE FROM Posts WHERE id=:post_id";
-$post_delete = $db->prepare($query3);
-$post_delete->bindValue(":post_id", $post_id, PDO::PARAM_INT);
-$post_delete->execute();
 ?>
 
 
