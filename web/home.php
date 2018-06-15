@@ -116,8 +116,9 @@ ul.top-links li a:hover {
 }
 
 .deleteCol {
-    width: 350px;
-    float: right;   
+    width: 300px;
+    float: right;
+    padding-left: 50px;   
 }
  
 </style>
@@ -140,10 +141,10 @@ ul.top-links li a:hover {
  
  		echo "<div class='blogShort'>";
         echo "<br><br>";
+ 		echo "<h1>" . $title ."</h1>";
         echo "<div class='deleteCol'>";
         echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
         echo "</div>";
- 		echo "<h1>" . $title ."</h1>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
     	echo "<p>" .$post_date ."</p>";
