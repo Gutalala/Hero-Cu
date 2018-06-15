@@ -113,7 +113,7 @@ ul.top-links li a:hover {
 <body>       
     <ul class="top-links">
         <li><a class="store" href="logout.php">LOG OUT</a></li>
-        <li><a class="store" href="create_posts.php?user_id=$user_id">CREATE NEW ARTICLE</a></li>
+        <?php echo "<li><a class="store" href="create_posts.php?user_id=$user_id">CREATE NEW ARTICLE</a></li>"; ?>
         </ul>
     <div class="container">
     <?php
