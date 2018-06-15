@@ -3,7 +3,7 @@ $date = htmlspecialchars($_POST["date"]);
 $author = htmlspecialchars($_POST["author"]);
 $title = htmlspecialchars($_POST["title"]);
 $content = htmlspecialchars($_POST["content"]);
-$user_id = $_POST["user_id"];
+$user_id = htmlspecialchars($_POST["user_id"]);
 // echo "Course: $courseId\n";
 // echo "date: $date\n";
 // echo "content: $content\n";
