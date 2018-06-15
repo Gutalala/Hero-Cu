@@ -79,5 +79,8 @@ ul.top-links li a:hover {
 <br><br>
 		<input type="submit" value="Publish Article">
 	</form>
+	<?php
+	echo "$user_id";
+	?>
 </body>
 </html>
