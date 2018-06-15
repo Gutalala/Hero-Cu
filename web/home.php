@@ -134,7 +134,7 @@ a.editButton {
 .editCol {
     width: 300px;
     float: right;
-    padding-left: 200px;   
+    padding-left: 250px;   
 }
  
 </style>
@@ -162,7 +162,7 @@ a.editButton {
         echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
         echo "</div>";
         echo "<div class='editCol'>";
-        echo "<a class='editButton' href='edit_posts.php?post_id=$post_id&amp;user_id=$user_id'>Edit Article</a>";
+        echo "<a class='editButton' href='edit_posts.php?post_id=$post_id&amp;user_id=$user_id'>Edit</a>";
         echo "</div>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
