@@ -142,15 +142,15 @@ ul.top-links li a:hover {
  		echo "<div class='blogShort'>";
         echo "<br><br>";
  		echo "<h1>" . $title ."</h1>";
+        echo "<div class='deleteCol'>";
+        echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
+        echo "</div>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
     	echo "<p>" .$post_date ."</p>";
     	echo "<p>" .$content ."</p>";
     	echo "</article>";
     	echo "</div>";
-        echo "<div class='deleteCol'>";
-        echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
-        echo "</div>";
     }
 	?>
 	</div>
