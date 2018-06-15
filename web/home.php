@@ -133,6 +133,7 @@ ul.top-links li a:hover {
     	$post_date = $Posts["post_date"];
  
  		echo "<div class='blogShort'>";
+        echo "<br><br>";
         echo "<a class='deleteButton' href='deletePosts.php'>Remove Article</a>";
  		echo "<h1>" . $title ."</h1>";
  		echo "<article>";
