@@ -87,7 +87,7 @@ ul.top-links li a:hover {
 	<ul class="top-links">
         <li><a class="store" href="logout.php">LOG OUT</a></li>
     </ul>
-	<form action="insertPosts.php" method="POST" class="postInputs">
+	<form action="editPosts.php" method="POST" class="postInputs">
 		<input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
 		<input type="text" name="date" value="<?php echo $post_date; ?>"><br>
 		<input type="text" name="author" value="<?php echo $author; ?>"><br>
