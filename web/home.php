@@ -106,6 +106,14 @@ ul.top-links li a:hover {
  h2{color:#34ca78;}
  .margin10{margin-bottom:10px; margin-right:10px;}
  
+ a.deleteButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
  
 </style>
 </head>
