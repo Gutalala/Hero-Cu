@@ -27,6 +27,7 @@ foreach ($posts as $Posts) {
     	$title = $Posts["title"];
     	$content = $Posts["content"];
     	$post_date = $Posts["post_date"];
+    }
 ?>
 
 
@@ -88,7 +89,7 @@ ul.top-links li a:hover {
     </ul>
 	<form action="insertPosts.php" method="POST" class="postInputs">
 		<input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
-		<input type="text" name="date" placeholder="Date" ><br>
+		<input type="text" name="date" placeholder="Date" value="<?php echo $date; ?>"><br>
 		<input type="text" name="author" placeholder="Author"><br>
 		<input type="text" name="title" placeholder="Title"><br>
 		<textarea name="content" placeholder="Content"></textarea>
