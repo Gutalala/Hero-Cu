@@ -162,7 +162,7 @@ a.editButton {
         echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
         echo "</div>";
         echo "<div class='editCol'>";
-        echo "<a class='editButton' href='editPosts.php?post_id=$post_id&amp;user_id=$user_id'>Edit Article</a>";
+        echo "<a class='editButton' href='edit_posts.php?post_id=$post_id&amp;user_id=$user_id'>Edit Article</a>";
         echo "</div>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
