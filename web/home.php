@@ -31,7 +31,7 @@ while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 $query = "SELECT author, title, content, post_date FROM Posts WHERE user_id=:id";
 $statement = $db->prepare($query);
 // Bind any variables I need, here...
-$statement->bindValue(":id", $id, PDO::PARAM_INT);
+$statement->bindValue(":id", $user_id, PDO::PARAM_INT);
 $statement->execute();
 $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
