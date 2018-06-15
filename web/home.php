@@ -128,8 +128,7 @@ a.editButton {
     appearance: button;
 
     padding: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 50px;
     text-decoration: none;
     text-align: center;
     color: initial;
