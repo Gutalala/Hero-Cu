@@ -10,6 +10,23 @@ else
 	die(); // we always include a die after redirects.
 }
 $user_id = $_GET["user_id"];
+$post_id = $_GET["post_id"];
+
+require("dbConnect.php");
+$db = get_db();
+$query = "SELECT author, title, content, post_date FROM Posts WHERE id=:post_id";
+$statement = $db->prepare($query);
+// Bind any variables I need, here...
+$statement->bindValue(":post_id", $post_id, PDO::PARAM_INT);
+$statement->execute();
+$posts = $statement->fetchAll(PDO::FETCH_ASSOC);
+foreach ($posts as $Posts) {
+    	# code...
+        $post_id = $Posts["id"];
+    	$author = $Posts["author"];
+    	$title = $Posts["title"];
+    	$content = $Posts["content"];
+    	$post_date = $Posts["post_date"];
 ?>
 
 
@@ -71,10 +88,10 @@ ul.top-links li a:hover {
     </ul>
 	<form action="insertPosts.php" method="POST" class="postInputs">
 		<input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
-		<input type="text" name="date" placeholder="Date"><br>
-		<input type="text" name="author" placeholder="Author"><br>
-		<input type="text" name="title" placeholder="Title"><br>
-		<textarea name="content" placeholder="Content"></textarea>
+		<input type="text" name="date" placeholder="Date" value="<?php echo $date; ?>"><br>
+		<input type="text" name="author" placeholder="Author" value="<?php echo $author; ?>"><br>
+		<input type="text" name="title" placeholder="Title" value="<?php echo $title; ?>"><br>
+		<textarea rows="40" cols="110" name="content" placeholder="Content" value="<?php echo $content; ?>"></textarea>
 
 <br><br>
 		<input type="submit" value="Publish Article">

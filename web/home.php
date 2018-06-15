@@ -111,7 +111,7 @@ ul.top-links li a:hover {
     -moz-appearance: button;
     appearance: button;
 
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     color: initial;
 }
