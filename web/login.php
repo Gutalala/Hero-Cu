@@ -122,6 +122,13 @@ body {
   <div class="wrapper">
     <form class="form-signup" action="login.php" method="POST">       
       <h2 class="form-signup-heading">Login</h2>
+      <br><br>
+      <?php 
+      if ($badlogin==true) {
+      	# code...
+      	echo "<p style='color:red;'> Invalid Credentials </p>";
+      }
+      ?>
       <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Username" required="" autofocus="" />
       <input type="password" class="form-control" id="txtPassword" name="txtPassword" placeholder="Password" required=""/>      
       <label class="checkbox">
