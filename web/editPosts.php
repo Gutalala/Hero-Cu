@@ -94,6 +94,7 @@ ul.top-links li a:hover {
 		<input type="text" name="author" value="<?php echo $author; ?>"><br>
 		<input type="text" name="title" value="<?php echo $title; ?>"><br>
 		<textarea rows="40" cols="110" name="content" value="<?php echo $content; ?>"></textarea>
+		<p> <?php echo $content; ?> </p>
 
 <br><br>
 		<input type="submit" value="Publish Article">
