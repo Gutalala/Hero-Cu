@@ -134,7 +134,7 @@ ul.top-links li a:hover {
  
  		echo "<div class='blogShort'>";
         echo "<br><br>";
-        echo "<a class='deleteButton' href='deletePosts.php'>Remove Article</a>";
+        echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
  		echo "<h1>" . $title ."</h1>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
