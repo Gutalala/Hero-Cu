@@ -119,7 +119,7 @@ ul.top-links li a:hover {
 .deleteCol {
     width: 300px;
     float: right;
-    padding-left: 50px;   
+    padding-left: 100px;   
 }
 
 a.editButton {
