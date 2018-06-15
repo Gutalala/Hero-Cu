@@ -88,9 +88,10 @@ ul.top-links li a:hover {
     </ul>
 	<form action="insertPosts.php" method="POST" class="postInputs">
 		<input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
-		<input type="text" name="date" placeholder="Date" value="<?php echo $date; ?>"><br>
-		<input type="text" name="author" placeholder="Author" value="<?php echo $author; ?>"><br>
-		<input type="text" name="title" placeholder="Title" value="<?php echo $title; ?>"><br>
+		<input type="text" name="date" placeholder="Date" ><br>
+		<input type="text" name="author" placeholder="Author"><br>
+		<input type="text" name="title" placeholder="Title"><br>
+		<textarea name="content" placeholder="Content"></textarea>
 
 <br><br>
 		<input type="submit" value="Publish Article">

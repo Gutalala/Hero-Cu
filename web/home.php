@@ -122,6 +122,15 @@ ul.top-links li a:hover {
     padding-left: 50px;   
 }
 
+a.editButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    padding: 5px;
+    text-decoration: none;
+    color: initial;
+}
 .editCol {
     width: 300px;
     float: right;
