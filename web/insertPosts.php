@@ -15,7 +15,7 @@ $statement->bindValue(":author", $author, PDO::PARAM_STR);
 $statement->bindValue(":title", $title, PDO::PARAM_STR);
 $statement->bindValue(":content", $content, PDO::PARAM_STR);
 $statement->bindValue(":post_date", $date, PDO::PARAM_STR);
-$statement->bindValue(":user_id", $user_id, PDO::PARAM_INT);
+$statement->bindValue(":user_id", $user_id, PDO::PARAM_STR);
 $statement->execute();
 header("Location: home.php");
 die();

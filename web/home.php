@@ -25,7 +25,7 @@ $sth = $db->query($query2);
 
 while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 	# code...
-	$user_id = $row['id'];
+	$user_id = $row["id"];
 }
 
 $query = "SELECT author, title, content, post_date FROM Posts WHERE user_id=:id";
