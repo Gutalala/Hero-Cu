@@ -128,13 +128,15 @@ a.editButton {
     appearance: button;
 
     padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px
     text-decoration: none;
     color: initial;
 }
 .editCol {
     width: 300px;
     float: right;
-    padding-left: 250px;   
+    padding-left: 280px;   
 }
  
 </style>
