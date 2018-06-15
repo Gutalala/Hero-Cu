@@ -28,7 +28,7 @@ while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 	$user_id = $row["id"];
 }
 
-$query = "SELECT author, title, content, post_date FROM Posts WHERE user_id=:id";
+$query = "SELECT id, author, title, content, post_date FROM Posts WHERE user_id=:id";
 $statement = $db->prepare($query);
 // Bind any variables I need, here...
 $statement->bindValue(":id", $user_id, PDO::PARAM_INT);
@@ -127,6 +127,7 @@ ul.top-links li a:hover {
     <?php
     foreach ($posts as $Posts) {
     	# code...
+        $post_id = $Posts["id"];
     	$author = $Posts["author"];
     	$title = $Posts["title"];
     	$content = $Posts["content"];
