@@ -9,7 +9,7 @@ else
 	header("Location: login.php");
 	die(); // we always include a die after redirects.
 }
-$user_id = htmlspecialchars($_GET["user_id"]);
+$user_id = $_GET["user_id"];
 ?>
 
 
