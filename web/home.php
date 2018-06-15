@@ -20,7 +20,7 @@ else
 require("dbConnect.php");
 $db = get_db();
 
-$query2 = "SELECT id FROM users WHERE username="PRIMERO"";
+$query2 = "SELECT id FROM users WHERE username='PRIMERO'";
 $sth = $db->query($query2);
 
 while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
