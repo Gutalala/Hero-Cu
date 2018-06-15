@@ -134,8 +134,8 @@ a.editButton {
 .editCol {
     width: 300px;
     float: right;
-    padding-left: 20px;  
-    color: green; 
+    padding-left: 290px;  
+    background-color: green; 
 }
  
 </style>
