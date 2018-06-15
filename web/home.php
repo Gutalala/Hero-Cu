@@ -19,10 +19,16 @@ else
 }
 require("dbConnect.php");
 $db = get_db();
-$query = "SELECT author, title, content, post_date FROM Posts WHERE username=$username";
+
+foreach ($db->query2('SELECT id FROM Users WHERE username=$username') as $row) {
+	# code...
+	$id = $row["id"];
+}
+
+$query = "SELECT author, title, content, post_date FROM Posts WHERE user_id=:id";
 $statement = $db->prepare($query);
 // Bind any variables I need, here...
-$statement->bindValue(":username", $username, PDO::PARAM_STR);
+$statement->bindValue(":id", $id, PDO::PARAM_INT);
 $statement->execute();
 $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -104,7 +110,7 @@ ul.top-links li a:hover {
 <body>       
     <ul class="top-links">
         <li><a class="store" href="logout.php">LOG OUT</a></li>
-        <li><a class="store" href="create_posts.php">CREATE NEW ARTICLE</a></li>
+        <li><a class="store" href="create_posts.php?user_id=$id">CREATE NEW ARTICLE</a></li>
         </ul>
     <div class="container">
     <?php
