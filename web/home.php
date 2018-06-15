@@ -121,6 +121,12 @@ ul.top-links li a:hover {
     float: right;
     padding-left: 50px;   
 }
+
+.editCol {
+    width: 300px;
+    float: right;
+    padding-left: 50px;   
+}
  
 </style>
 </head>
@@ -145,6 +151,9 @@ ul.top-links li a:hover {
  		echo "<h1>" . $title ."</h1>";
         echo "<div class='deleteCol'>";
         echo "<a class='deleteButton' href='deletePosts.php?post_id=$post_id'>Remove Article</a>";
+        echo "</div>";
+        echo "<div class='editCol'>";
+        echo "<a class='editButton' href='create_posts.php?post_id=$post_id'>Edit Article</a>";
         echo "</div>";
  		echo "<article>";
     	echo "<p>" .$author ."</p>";
